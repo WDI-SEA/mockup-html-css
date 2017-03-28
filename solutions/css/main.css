@@ -3,6 +3,8 @@ body {
     font-weight: 300;
     margin: auto;
     width: 900px;
+    border-left: solid 4pt gray;
+    padding-left: 30px;
 }
 
 a {
@@ -53,8 +55,6 @@ footer {
     margin-top: 60px;
 }
 
-
-}
 footer p {
     color: gray;
 }
