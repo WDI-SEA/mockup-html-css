@@ -71,10 +71,11 @@ footer nav a {
     color: orange;
 }
 
-article p::first-letter {
+article p:first-letter {
     color: lightgrey;
     font-size: 30pt;
     float: left;
+    line-height: 1;
 }
 
 footer p {
