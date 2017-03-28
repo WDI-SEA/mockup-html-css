@@ -1,0 +1,58 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    border: 20px solid #DDD;
+    margin: 0;
+    padding: 3em;
+    line-height: 1.5;
+}
+
+h1 > a {
+    color: #e0dfba;
+    font-size: 60pt;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30pt;
+}
+
+h2 > a {
+    font-size: 30pt;
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+nav > a {
+    font-size: 20pt;
+    color: grey;
+    padding: 20px 5px;
+}
+
+h3 {
+    font-size: 28pt;
+    font-weight: lighter;
+}
+
+h4 {
+    text-align: right;
+}
+
+article {
+    border-bottom: 1px solid #DDD;
+}
+
+article p:first-letter {
+    float: left;
+    color: lightgrey;
+    font-size: 6em;
+    width: 100px;
+    padding: -10px;
+    line-height: 1;
+    /*margin: -.1em .1em 0 -1em;*/
+}
