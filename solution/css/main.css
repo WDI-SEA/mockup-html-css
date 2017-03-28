@@ -4,7 +4,7 @@ body {
     width: 900px;
     margin: 0 auto;
     padding-left: 50px;
-    border-left: solid 4px gray;
+    border-left: solid 4px #EEE;
 }
 
 a {
@@ -27,7 +27,7 @@ h3,
 header nav a,
 footer p,
 article p::first-letter {
-    color: gray;
+    color: #DDD;
     font-weight: normal;
 }
 
@@ -43,7 +43,7 @@ article h4 {
 
 header nav a {
     margin: 0 10px;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px #EEE;
 }
 
 header {
@@ -66,7 +66,7 @@ h1 {
 }
 
 article {
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px #EEE;
 }
 
 footer {
