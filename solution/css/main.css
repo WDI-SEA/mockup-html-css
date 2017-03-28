@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: left;
     width: 900px;
     margin: 0 auto;
@@ -11,10 +11,16 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: black;
+    border: none;
+}
+
 h1 a,
 h4 a,
 footer nav a {
     color: orange;
+    font-weight: normal;
 }
 
 h3,
@@ -22,10 +28,13 @@ header nav a,
 footer p,
 article p::first-letter {
     color: gray;
+    font-weight: normal;
 }
 
 h2 a {
     color: black;
+    font-weight: normal;
+    font-size: 1.5em;
 }
 
 article h4 {
@@ -34,14 +43,14 @@ article h4 {
 
 header nav a {
     margin: 0 10px;
-    border-bottom: solid 2px gray;
+    border-bottom: solid 1px gray;
 }
 
 header {
     margin-bottom: 60px;
 }
 
-article p::first-letter {
+article p:first-letter {
     font-size: 60pt;
     float: left;
     padding-right: 10px;
@@ -50,6 +59,10 @@ article p::first-letter {
 h3 {
     font-size: 24pt;
     margin-bottom: 8pt;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 article {
