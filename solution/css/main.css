@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', san-serif;
+}
+
+h1 {
+    font-size: 36pt;
+    font-weight: 300;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: : 24pt;
+    font-weight: 300;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: lightgray;
+    margin: 0 10px;
+}
+
+article h3 {
+    color: lightgray;
+    font-size: 24pt;
+    font-weight: 300;
+}
+
+h2 a {
+    color: black;
+    font-size: 24pt;
+}
+
+article p:first-letter {
+    float: left;
+    font-size: 6em;
+    line-height: 1;
+    color: #DDD;
+    margin: -.1em .1em 0 -.1em;
+}
+
+footer a {
+    color: orange;
+    font-size: 12px;
+}
