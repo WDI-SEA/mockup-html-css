@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a,
+h4 a,
+footer nav a {
+    color: orange;
+}
+
+h3,
+header nav a,
+footer p,
+article p::first-letter {
+    color: gray;
+}
+
+h2 a {
+    color: black;
+}
+
+article h4 {
+    text-align: right;
+}
+
+header nav a {
+    margin: 0 10px;
+    border-bottom: solid 2px gray;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+article p::first-letter {
+    font-size: 60pt;
+    float: left;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 24pt;
+    margin-bottom: 8pt;
+}
+
+article {
+    border-bottom: solid 1px gray;
+}
+
+footer {
+    margin-top: 60px;
+}
