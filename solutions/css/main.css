@@ -1,0 +1,76 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    border: 20pt solid #DDD;
+    margin: 10;
+    padding: 20pt;
+    line-height: 1.5;
+    max-width: 900pt;
+    margin: 0 auto;
+}
+
+h1 > a {
+    color: #f4bf42;
+    font-size: 60pt;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 30pt;
+}
+
+h2 > a {
+    font-size: 30pt;
+    color: #f4bf42;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+nav > a {
+    font-size: 20pt;
+    color: grey;
+    padding: 20pt 5pt;
+}
+
+h3 {
+    font-size: 28pt;
+    font-weight: lighter;
+    color: #CCC;
+}
+
+h4 {
+    text-align: right;
+}
+
+h4 > a {
+    color: orange;
+    text-decoration: none;
+    float: right;
+}
+
+article {
+    top-bottom: 1pt solid #DDD;
+}
+
+article p {
+    max-width: 1000pt;
+}
+
+article p:first-letter {
+    float: left;
+    color: lightgrey;
+    font-size: 6em;
+    width: 100pt;
+    padding: 5pt;
+    height: 64;
+    margin-right: 10pt;
+}
+
+nav > a {
+    color: #f4bf42;
+    font-size: 11pt;
+}
