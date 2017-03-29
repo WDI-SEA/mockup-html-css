@@ -1,0 +1,78 @@
+* {
+    font-family: Lato;
+}
+
+header h2 {
+    font-weight: normal;
+    margin-bottom: .5em;
+}
+
+img {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 3em;
+    max-width: 40em;
+    border: 15px solid lightgrey;
+}
+
+article h4 {
+    text-align: right;
+}
+
+article h2 a {
+    font-weight: 500pt;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+h1 a {
+    font-size: 34pt;
+    color: gold;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h3 {
+    color: lightgrey;
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+h4 a {
+    text-align: right;
+    color: gold;
+}
+
+header nav a {
+    font-size: 14pt;
+    display: inline-block;
+    margin-right: .75em;
+    color: lightgrey;
+}
+
+article p:first-letter {
+    float: left;
+    font-size: 6em;
+    line-height: 1;
+    color: gray;
+    margin: -.1em .1em 0 -.1em;
+}
+
+article {
+    border-bottom: .05em solid lightgrey;
+    padding-bottom: 2em;
+}
+
+footer {
+    border-top: 2 color: lightgrey;
+}
+
+footer nav a {
+    color: gold;
+}
