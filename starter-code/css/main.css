@@ -1,0 +1,61 @@
+h1 {
+    color: #F5DA57;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    padding: 10px;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    padding: 10px;
+}
+nav {
+    Font-family: Arial, sans-serif;
+    color: grey;
+    border: 5px underlined grey;
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+    background: rgba(0,0,0,0.4);
+    text-align: left;
+}
+h3 {
+    font-family: Arial, sans-serif;
+    color: grey;
+    font-style: bold;
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+}
+img {
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+}
+p {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+h4 {
+    font-family: Arial, sans-serif;
+    color: #F5DA57;
+    text-align: right;
+    padding: 10px;
+    font-size: 15px;
+}
+footer {
+    font-family: Arial, sans-serif;
+    color: grey;
+    font-size: 12px;
+    text-align: left;
+    
+}
+a:hover {
+    background-color: yellow;
+}
