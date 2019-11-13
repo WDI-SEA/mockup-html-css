@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato";
+    margin: 0 40px;
+}
+
+header {
+    margin: 0, 0, 20px, 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    margin: 75px 0 -10px 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 60px;
+    color:  rgba(255, 196, 0, 0.61);   
+}
+
+nav {
+    margin: -5px auto 20px;
+    text-decoration: none;
+}
+
+h2 {
+    padding: 0 auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    margin: 75px auto -20px;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.25)
+}
+
+article {
+    width: 900px;
+    box-sizing: border-box;
+}
+
+h4 {
+    float: right;
+    color: rgba(255, 196, 0, 0.61);
+}
+
+footer {
+    clear: right;
+    color: rgba(0,0,0,0.3)
+}
+
+span {
+    float: left;
+    font-size: 100px;
+    color: rgba(0,0,0,0.25);
+    margin: 5px 10px 5px 0;
+    line-height: 75%;
+}
+
+.header-nav {
+    font-size: 24px;
+    color: rgba(0,0,0,0.2);
+    text-decoration: underline;
+    padding: 0 10px 0 0;
+}
+
+.article-header{
+    font-size: 40px;
+}
+
+.footer-nav {
+    color:  rgba(255, 196, 0, 0.61);
+}
