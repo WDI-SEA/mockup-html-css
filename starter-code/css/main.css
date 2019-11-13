@@ -7,3 +7,7 @@ a {
 header nav a {
     text-decoration: underline;
 }
+h1 a, h4 a, footer nav a {
+    color:#f1cf84;
+}
+
