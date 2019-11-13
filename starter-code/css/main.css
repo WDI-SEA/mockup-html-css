@@ -20,4 +20,8 @@ h1, h2, h3 {
 } 
 h1 {
     font-size: 50px;
+    ;
+}
+header nav a, footer p {
+    color: #e7e7e7;
 }
