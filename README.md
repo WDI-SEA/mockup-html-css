@@ -9,7 +9,7 @@ Use CSS to style a web page according to a mockup.
 Working from a mockup will be part of your daily routine as a web developer. Mockups and specs — details about white space, size, color, and more — can vary depending on your designer. It's important to be incredibly detail-oriented when following a mockup, so be sure to communicate with your designer to clarify your needs. It may take time before you agree on the best way to share materials.
 
 ## Exercise
-
+ßs
 Using the provided HTML, add the CSS necessary to make the page resemble the mockup below.
 
 ### Requirements
