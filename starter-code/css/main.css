@@ -1,0 +1,111 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 15px 90px 15px 15px;
+    border-left-style: solid;
+    border-left-color: rgb(212, 212, 212);
+    border-left-width: 6px;
+    padding: 50px 60px 50px 60px;
+    width: 900px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 68px;
+    color: rgb(230, 189, 76);
+    margin: 0px;
+}
+
+article h2 {
+    font-weight: 300;
+    color: black;
+    margin: 1px 0px 15px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 45px;
+    clear: right;
+    color: rgb(212, 212, 212);
+    margin: 1px 0px 1px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(104, 103, 103);
+    padding: 15px;
+}
+
+article p::first-letter {
+    font-size: 700%;
+    color: rgb(212, 212, 212);
+    float: left;
+    padding: 40px 20px 45px 0px;
+    font-weight: lighter;
+  }
+
+article {
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 30px 0px 90px 0px;
+    font-size: 30px;
+}
+
+h4 {
+    float: right;
+    color: rgb(230, 189, 76);
+    font-size: 20px;
+}
+
+header h2 {
+    font-size: 34px;
+    font-weight: 300;
+    color: black;
+    padding: 1px 0px 0px 0px;
+}
+
+header nav {
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+}
+ header nav a {
+     padding: 0px 15px 0px 0px;
+     text-decoration: underline;
+     text-underline-position: under;
+ }
+
+footer nav {
+    color: rgb(212, 212, 212);
+    padding: 60px 0px 0px 0px;
+    font-size: 20px;
+}
+
+footer nav a {
+    color: rgb(230, 189, 76);
+}
+
+footer {
+    clear: right;
+}
+
+footer p {
+    padding: 0px;
+    color: rgb(197, 196, 196);
+}
+
+header nav a:hover {
+    color: black;
+}
+
+footer nav a:hover {
+    color: black;
+}
