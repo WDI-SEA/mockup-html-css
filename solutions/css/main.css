@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    margin: auto;
+    width: 900px;
+    border-left: solid 4pt gray;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a,
+h4 a,
+footer nav a {
+    color: orange;
+}
+
+h3,
+header nav a,
+footer p,
+article p::first-letter {
+    color: gray;
+}
+
+h2 a {
+    color: black;
+}
+
+article h4 {
+    text-align: right;
+}
+
+header nav a {
+    margin: 0 10px;
+    border-bottom: solid 2px gray;
+}
+
+article p::first-letter {
+    font-size: 60pt;
+    float: left;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 24pt margin-bottom: 8pt;
+}
+
+article {
+    border-bottom: solid 1px gray;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+footer p {
+    color: gray;
+}
